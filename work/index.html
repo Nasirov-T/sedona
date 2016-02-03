@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sedona</title>
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="shortcut icon" href="img/header_logo.png" type="image/png" />
+</head>
+<body>
+<div class="maket">
+	<header class="main_header clearfix">
+			<div class="main_menu float_l"><a href="#" class="active">Информация</a></div>
+			<div class="main_menu float_l"><a href="#">Фото и видео</a></div>
+			<div class="menu_center  float_l"><div class="logo"><a href="index.html"><img src="img/logo.png" alt="" width="135px" height="70px"></a></div></div>
+			<div class="main_menu  float_l"><a href="#">Карта штата</a></div>
+			<div class="main_menu  float_l"><a href="sedona_hotels.html">Гостиницы</a></div>
+	</header>
+		<div class="slide">
+			<div class="slide_item_1"><img src="img/welcome_gorgeous.png" alt=""></div>
+			<div  class="slide_item_2"><img src="img/sedona_text.png" alt=""></div>
+			<div  class="slide_item_3"><img src="img/slide_because.png" alt=""></div>
+		</div>
+		<section class="content">
+			<div class="advantage">
+			<h2>Седона - небольшой городок в аризоне, заслуживающий большего</h2>
+			<p>Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
+			</div>
+			<section class="advantage_1 clearfix">
+				<div class="advantage_1_left float_l">
+					<h2>Настоящий городок</h2>
+					<p>-№1-</p>
+					<p>Седона не атракцион<br> для туристов,
+					там<br> течет своя жизнь</p>
+				</div>
+				<div class="advantage_1_right float_r">
+				</div>
+			</section>
+			<section class="advantage_components clearfix">
+				<div class="advantage_hotel float_l">
+					<h2>Жилье</h2>
+					<p>Рекомендуем пожить<br> в настоящем мотеле,<br> как в кино!</p>
+				</div>
+				<div class="advantage_eat float_l">
+					<h2>Еда</h2>
+					<p>Всегда заказывай<br> фирменный бургер,<br> вы не разочаруетесь!</p>
+				</div>
+				<div class="advantage_souvenirs float_r">
+					<h2>Сувениры</h2>
+					<p>Не только китайского,<br> но и местного<br> производства!</p>
+				</div>
+			</section>
+			<section class="advantage_2 clearfix">
+				<div class="advantage_2_left float_l">
+				
+				</div>
+				<div class="advantage_2_right float_r">
+							<h2>Там есть <br>мост дьявола</h2>
+					<p>-№2-</p>
+					<p>ДА, по нему можно<br> пройти!
+					Если конечно<br> вы осмелитесь</p>
+					
+				</div>
+			</section>
+			<section class="other_advantage clearfix">
+			<div class="advantage_3 float_l">
+				<h2>Небольшая<br> площадь</h2>
+				<p>-№3-</p>
+				<p>Все достопремича-<br>тельности находятся<br> очень близко</p>
+			</div>
+			<div class="advantage_3 float_l">
+				<h2>Красивая<br> дорога</h2>
+				<p>-№4-</p>
+				<p>Ехать в Седону из<br> Лас-Вегаса совсем<br> не скучно!</p>
+			</div>
+			<div class="advantage_3 float_r">
+				<h2>Мало<br> Туристов</h2>
+				<p>-№5-</p>
+				<p>Большинство едeт<br> на гранд-каньон и<br> толпиться там</p>
+			</div>
+			</section>
+		</section>
+		<section class="data">
+			<h2>Заинтересовались?</h2>
+			<p>укажите предпологаемые даты поездки<br> 
+			и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			
+		</section>
+					
+		<div class="maps">
+	
+
+	<form class="search_form" action="/echo" method="post">
+	<div class="form_name"><p>Поиск Гостиниц в седоне</p></div>
+			<div class="form_input">
+				<div class="form_input_tags">
+				<label for="data_go" class="float_l">Дата заезда:</label> 
+				<input type="text" name="data_go" class="data_go float_r" id="data_go" placeholder="20.10.2015" pattern="[0-9]{2}.[0-9]{2}.[2]{1}[0]{1}[1]{1}[6-7]{1}" required>
+				</div>
+
+				<div class="form_input_tags">
+				<label for="data_back" class="float_l">дата выезда:</label>
+				<input type="text" name="data_back" class="data_back float_r" id="data_back" placeholder="28.10.2016"
+				pattern="[0-9]{2}.[0-9]{2}.[2]{1}[0]{1}[1]{1}[6-7]{1}" required>
+				</div>
+
+				<div class="form_input_tags">
+				<div class="form_child">
+				<a href="#" class="plus"></a>
+				<input type="text" class="child_go float_r" id="child_go" name="child_go" placeholder="1" required>
+				<a href="#" class="minus"></a>
+				<label for="child_go" class="float_r child">Дети:</label>
+				</div>
+				<div class="form_people">
+
+				<label for="people_go" class="float_l">Взрослые:</label>
+				<a href="#" class="minus"></a>	
+				<input type="text" class="people_go float_l" id="people_go" placeholder="2" name="people_go" required>
+				<a href="#" class="plus"></a>
+				</div>
+				</div>
+		
+				<button type="submit"> НАЙТИ</button>
+		</div>
+		</form>
+		
+	<footer class="main_footer">
+		<div class="visit float_l"><a href="#">#visitsedona</a></div>
+		<div class="social float_l">
+			<div class="social_tw"></div>
+			<div class="social_fb"></div>
+			<div class="social_yt"></div>
+		</div>
+		<div class="website float_r">
+			 <span>Website by <a href="#" class="first">&nbsp &nbsp &nbsp &nbsp</a> for <a href="#" class="second">&nbsp &nbsp &nbsp &nbsp</a></span>
+		</div>
+	</footer>
+	
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+<!-- html проверка формы data_go
+
+-->
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
